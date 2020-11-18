@@ -19,7 +19,7 @@ classdef Linea < handle
             close all
             figure;
             plot([obj.pntA.x, obj.pntB.x], ...
-                [obj.pntA.y, obj.pntB.y], "r*-");
+                [obj.pntA.y, obj.pntB.y], "b*-");
             axis([-10 10 -10 10])
         end
         
